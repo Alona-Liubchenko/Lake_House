@@ -1,0 +1,51 @@
+.hero {
+ min-width: 1280px;
+ margin: 0 auto;
+ border: none;
+ background-image: linear-gradient(
+   101.26deg,
+   rgba(27, 25, 24, 0.4) 5.05%,
+   rgba(27, 25, 24, 0.0965717) 47.68%,
+   rgba(27, 25, 24, 0) 61.25%
+  ),
+  url(../assets/images/hero-image.jpg);
+
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ padding: 114px 0 424px 0;
+}
+.hero .container {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+.hero-title {
+ font-family: "Merriweather";
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 48px;
+ color: #fdfcfc;
+ max-width: 769px;
+ margin-left: 120px;
+ text-shadow: 0px 2px 2px rgba(253, 252, 252, 0.1);
+}
+
+.hero-btn {
+ margin-left: 120px;
+ margin-top: 16px;
+ padding: 10px 16px;
+ width: 104px;
+ height: 40px;
+ background: #e08631;
+ border: transparent;
+ border-radius: 4px;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ color: #fdfcfc;
+ cursor: pointer;
+}
+.hero-btn:hover {
+     background:#5F4F49;
+}
