@@ -40,11 +40,17 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1280px;
-
+  width: 1200px;
+margin: 0 auto;
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.divider{
+    width: 80px;
+  height: 4px;
+  background-color: var(--accent-color);
+  border: none;
 }

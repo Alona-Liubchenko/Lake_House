@@ -17,7 +17,7 @@ justify-content: space-between;
 .logo {
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: 120px;
+
 }
 .header-nav {
  display: flex;
@@ -35,7 +35,6 @@ color: #FDFCFC;
 color: var(--accent-color);
 }
 .header-connect{
-  margin-right: 120px;
   display: flex;
   gap: 16px;
 }
