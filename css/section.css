@@ -79,3 +79,69 @@ color: #353231;
 width: 60px;
 height: 60px;
 }
+.arrangements-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  text-align: center;
+}
+
+.arrangements-list .grid-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.premises-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 32px;
+  column-gap: 64px;
+  --col-gap: 8px;
+  --icon-size: 40px;
+}
+:is(.arrangements-list, .premises-list) p:first-of-type {
+  font-weight: bold;
+}
+.benefits-section {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.benefits-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  --icon-size: 40px;
+  --col-gap: 8px;
+}
+.grid-list-item {
+  display: grid;
+  row-gap: 0;
+  column-gap: 0;}
+
+  .grid-list-item .icon {
+  width: 40px;
+  aspect-ratio: 1;
+  grid-row: span 2;
+}
+
+.grid-list-item:has(.icon) {
+  grid-template-columns: min-content 1fr;
+}
+
+.grid-list-item:has(.icon) p {
+  grid-column: 2;
+}
+
+.grid-list-item:has(.icon) p:first-of-type:last-of-type {
+  align-self: center;
+}
+
+.grid-list-item:has(p + p) {
+  grid-template-rows: auto;
+}
+
+.grid-list-item:has(p + p) p:last-of-type {
+  align-self: start;
+}
