@@ -1,0 +1,13 @@
+.footer-section {
+ padding-top: 96px;
+ padding-bottom: 96px;
+ background-color: #5f4f49;
+ color: white;
+}
+.footer-section .container {
+      grid-template-areas: "contacts newsletter" "legal legal";
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: auto;
+ gap: 80px;
+}
