@@ -5,9 +5,69 @@
  color: white;
 }
 .footer-section .container {
-      grid-template-areas: "contacts newsletter" "legal legal";
  display: grid;
+ grid-template-areas: "contacts newsletter" "legal legal";
  grid-template-columns: 1fr 1fr;
  grid-template-rows: auto;
  gap: 80px;
+}
+.contacts {
+ display: flex;
+ flex-direction: column;
+ gap: 32px;
+ padding: 0;
+}
+.item {
+ display: flex;
+ gap: 8px;
+}
+.caption {
+ text-transform: uppercase;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 20px;
+}
+.email-box {
+ position: relative;
+ margin-top: 16px;
+}
+.email-box .btn {
+ position: absolute;
+ top: 8px;
+ right: 8px;
+}
+.btn {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ color: #fdfcfc;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 6px 10px;
+ gap: 10px;
+ width: 70px;
+ height: 32px;
+ background: #5f4f49;
+ border-radius: 4px;
+}
+.input {
+ border: 1px solid var(--clr-brown);
+ border-radius: 8px;
+ padding: 16px;
+ width: 100%;
+}
+.input::placeholder {
+ font-family: "Montserrat";
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 20px;
+ color: #353231;
+}
+.footer-text {
+ font-weight: 300;
+ font-size: 14px;
+ line-height: 20px;
+ color: #fdfcfc;
+ margin-bottom: 8px;
 }
