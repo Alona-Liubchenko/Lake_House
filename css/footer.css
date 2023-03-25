@@ -4,7 +4,7 @@
  background-color: #5f4f49;
  color: white;
 }
-.footer-section .container {
+.footer-content{
  display: grid;
  grid-template-areas: "contacts newsletter" "legal legal";
  grid-template-columns: 1fr 1fr;
@@ -14,7 +14,7 @@
 .contacts {
  display: flex;
  flex-direction: column;
- gap: 32px;
+ gap: 16px;
  padding: 0;
 }
 .item {
@@ -26,6 +26,7 @@
  font-weight: 500;
  font-size: 14px;
  line-height: 20px;
+ margin-bottom: 16px;
 }
 .email-box {
  position: relative;
@@ -64,6 +65,13 @@
  line-height: 20px;
  color: #353231;
 }
+.legal{grid-area: legal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;} 
+
 .footer-text {
  font-weight: 300;
  font-size: 14px;
