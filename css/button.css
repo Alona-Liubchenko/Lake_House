@@ -1,0 +1,26 @@
+.btn {
+ padding: 10px 16px;
+ min-width: 104px;
+ height: 40px;
+ background: #e08631;
+ border: transparent;
+ border-radius: 4px;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ color: #fdfcfc;
+ cursor: pointer;
+}
+.btn:hover {
+ background: #eee4dd;
+ color: #5f4f49;
+ border: 1px solid #5F4F49;
+}
+.hero .btn {
+   margin-left: 120px;
+ margin-top: 16px;
+}
+.btn-group {
+ display: flex;
+ gap: 16px;
+}

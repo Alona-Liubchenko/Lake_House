@@ -17,10 +17,7 @@
  gap: 16px;
  padding: 0;
 }
-.item {
- display: flex;
- gap: 8px;
-}
+
 .caption {
  text-transform: uppercase;
  font-weight: 500;
@@ -32,12 +29,12 @@
  position: relative;
  margin-top: 16px;
 }
-.email-box .btn {
+.email-box .footer-btn {
  position: absolute;
  top: 8px;
  right: 8px;
 }
-.btn {
+.footer-btn {
  font-weight: 500;
  font-size: 16px;
  line-height: 20px;
@@ -78,4 +75,7 @@
  line-height: 20px;
  color: #fdfcfc;
  margin-bottom: 8px;
+}
+.footer-section .item {
+align-items: normal;
 }
